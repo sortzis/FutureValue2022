@@ -20,5 +20,15 @@ namespace FutureValue.Controllers
 
             return View(model);
         }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
